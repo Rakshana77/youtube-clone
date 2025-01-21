@@ -1,12 +1,78 @@
-# Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5
+YouTube Clone Frontend 🎥
+This is the frontend of a YouTube Clone application built with React.js and styled using Tailwind CSS. The application integrates with a backend API to provide features like user authentication, video upload, likes, and comments.
 
-![YouTube](https://i.ibb.co/4R5RkmW/Thumbnail-5.png)
+Features 🚀
+User Registration and Login
+Video Upload and Playback
+Like Videos
+Comment on Videos
+Responsive Design using Tailwind CSS
+RESTful API Integration
+Tech Stack 🛠️
+React.js (Frontend Framework)
+Tailwind CSS (Styling)
+Axios (API calls)
+React Router (Routing)
+Installation 🔧
+Prerequisites
+Node.js and npm installed
+A running backend server (Check the YouTube Clone Backend)
+Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/Rakshana77/youtube-clone.git
+cd youtube-clone/frontend
+Setup
+Install dependencies:
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+bash
+Copy
+Edit
+npm install
+Create a .env file in the frontend directory with the following content:
 
-### Showcase your dev skills with practical experience and land the coding career of your dreams
-💻 JS Mastery Pro - https://jsmastery.pro/youtube
-✅ A special YOUTUBE discount code is automatically applied!
+bash
+Copy
+Edit
+REACT_APP_API_BASE_URL=http://localhost:5000/api
+Replace http://localhost:5000/api with the URL of your backend API if it's running on a different server.
 
-📙 Get the Ultimate Frontend & Backend Development Roadmaps, a Complete JavaScript Cheatsheet, Portfolio Tips, and more - https://www.jsmastery.pro/links
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+The application will run at http://localhost:3000.
+
+Usage 💡
+Open http://localhost:3000 in your browser.
+Register a new user or log in with existing credentials.
+Explore features like uploading videos, liking them, and leaving comments.
+Project Structure 📁
+plaintext
+Copy
+Edit
+frontend/
+├── public/            # Static files
+├── src/
+│   ├── components/    # Reusable components
+│   ├── pages/         # Page-level components
+│   ├── services/      # API integration (e.g., Axios setup)
+│   ├── App.js         # Main app component
+│   └── index.js       # Entry point
+└── .env               # Environment variables
+Screenshots 📸
+Add some screenshots or GIFs here to showcase your app.
+
+Contributions 🤝
+Contributions are welcome! Feel free to fork the repository and submit a Pull Request.
+
+License 📜
+This project is licensed under the MIT License.
+
+Contact 📧
+For any inquiries or feedback, feel free to reach out at rakshana@example.com or visit my GitHub Profile.
+
+Let me know if you’d like to modify this further!
